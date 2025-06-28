@@ -12,4 +12,4 @@ The clever use of the `r` pointer to:
 3. Maintain O(n) time complexity
 
 ## Time Complexity
-O(n) - Single pass through the array with constant-time range operations
+O(n) - Single pass through the array with constant-time range operations 
