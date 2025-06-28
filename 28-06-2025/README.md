@@ -109,11 +109,3 @@ public:
 ```
 
 
-Key formatting notes:
-1. Used proper markdown headers (`##` and `###`)
-2. Added code fence (```) for the C++ code block
-3. Maintained consistent bullet point formatting
-4. Separated sections clearly with blank lines
-5. Kept complexity analysis in bold for readability
-
-The formatting will render perfectly on GitHub/GitLab or any markdown viewer. Would you like me to adjust any specific part of the formatting?
