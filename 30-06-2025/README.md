@@ -5,16 +5,14 @@
 - **Tags:** Hash Table, Sorting 
 
 ### ✅ Intuition:
-We are given a string `word` that may contain **at most one long-pressed character group**, meaning a character might have been repeated unintentionally.
+Use a frequency map to count occurrences of each number.  
+For every key, check if `key + 1` exists, and if so, update the answer with the sum of their frequencies.
 
-Your solution identifies **consecutive groups of identical characters**. For each such group of size `k > 1`, there are `(k - 1)` possible ways Alice may have over-typed the character. Since only **one group** could have been long-pressed, we can choose **any one of those extra characters to remove**.
-
-We initialize the answer as `1` (the case where no correction is needed), and for each group of repeated characters, we add `(group size - 1)` to the answer. This gives the total number of possible original strings Alice could have intended.
 ---
 
 ### 🧠 Time & Space Complexity:
 - **Time:** O(n)  
-- **Space:** O(1)
+- **Space:** O(n)
 
 ---
 
