@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get current date in YYYY-MM-DD format
-TODAY=$(date +"%Y-%m-%d")
+TODAY=$(date +"%d-%m-%Y")
 
 # Prompt for problem name
 read -p "Enter today's LeetCode problem name: " PROBLEM_NAME
