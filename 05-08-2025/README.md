@@ -56,4 +56,4 @@ int main() {
     cout << sol.numOfUnplacedFruits(fruits, baskets) << endl;
     return 0;
 }
-```
+```./init_leetcode.sh
